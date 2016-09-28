@@ -63,3 +63,6 @@ ul {
 .button:hover {
   cursor: pointer;
 }
+.logo-flipper {
+  background-color: yellow;
+}
