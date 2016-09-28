@@ -39,9 +39,7 @@ h2 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-#best-animal {
-   background-color: springgreen;
-}
+
 li {
   width: 50%;
 }
@@ -65,4 +63,7 @@ ul {
 }
 .logo-flipper {
   background-color: yellow;
+}
+.selected {
+  background-color: red;
 }

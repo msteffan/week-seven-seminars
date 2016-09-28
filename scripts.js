@@ -9,13 +9,15 @@
 
 // convert temps from celsius to fahrenheit
 
-function convert(celsius) {
-  var fahrenheit = celsius * 9/5 + 32;
-  return fahrenheit;
+function convert(degrees, convertTo) {
+  if (convertTo == "F"){
+    var temp = degrees * 9/5 + 32;
+  } else {
+    var temp = degrees * 5/9 - 32;
+
+  }
+  return temp;
 }
-//
-// var temperature = prompt("What is the temperature in celsius?");
-// convert(temperature)
 
 // change the color of some text
 // document.querySelector('#logo').onclick = function(){
@@ -28,5 +30,10 @@ function convert(celsius) {
 function flipLogo(){
   document.querySelector('#logo').classList.toggle("logo-flipper")
 }
-
 document.querySelector('#logo').addEventListener('click', flipLogo);
+
+
+var classname = document.getElementsByClassName("animal");
+var addBackgroundColor = function() {
+    this.classList.toggle("selected");
+};
