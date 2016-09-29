@@ -1,5 +1,3 @@
-// console.log("hello world");
-
 
 
 
@@ -24,12 +22,28 @@
 
 // declare a function
   // will need two parameters
+function convertTemp(temp, convertTo){
+  // determine which formula to use
+  if(convertTo == "C"){
+    // fahrenheit to celsius: (x * 5/9) - 32
+    var newTemp = (temp - 32) * 5/9 ;
+  } else {
+    // celsius to fahrenheit: x * 9/5 + 32
+    var newTemp = temp * 9/5 + 32;
+  }
+  // return the temp
+  return newTemp;
+}
 
-// determine which formula to use
-  // celsius to fahrenheit: x * 9/5 + 32
-  // fahrenheit to celsius: x * 5/9 - 32
 
-// return the temp
+
+// modify the css
+// document.getElementById("logo").style.backgroundColor= "springgreen"
+//
+// var name = prompt("What is your name?")
+// document.querySelector("#logo").textContent = "Welcome to this zoo, " + name + "!"
+
+
 
 
 

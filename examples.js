@@ -107,15 +107,15 @@ fruits[5] // doesn't exist! :(
   // not scary version of the words: "how we want the computer to decide things"
 
 // if statement
-if (  ){
+if ( an email address is present ){
 
 }
 
 // if-else statement
-if (  ){
-
+if ( email and password match ){
+ DO SOMETHING
 } else {
-
+ DO SOMETHING ELSE
 }
 
 // if()-else if()-else statement
