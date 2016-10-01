@@ -1,34 +1,47 @@
+// Vanilla JS:
 
-// var logoColor = $("#logo").css("color");
-// console.log(logoColor);
-//
-// $("#logo").css("color", "blue");
-
-
-
-/* Vanilla JS:
-
-document.querySelector("#logo").addEventListener("click", function(){
-  // function body here
-})
-
-*/
+  document.querySelector("#logo").addEventListener("click", function(){
+    // function body here
+  })
 
 // jQuery click event: Turn the logo text red
 
 
 
-// jQuery toggleClass
-
-
-// jQuery hide/show/toggle
-$("#logo").click(function(){
-  $(".animal").toggle()
-})
 
 
 
-// put it all together: Toggle a jQuery class on an element on each click event
+
+
+// jQuery toggleClass — add or remove a "show" class
+
+
+
+
+
+
+
+
+// jQuery hide/show/toggle - hide the "ul" on click
+
+
+
+
+
+
+// put it all together: Toggle the "show" class on our sloth fact every time the "#best-animal" div is clicked
+
+  // add the .show class in the CSS
+  // hide the .sloth-fact div by default
+  // add the click event for #best-animal
+  // toggle the .show class after click
+
+
+
+
+
+
+
 function showFact(){
   $(".sloth-fact").toggleClass("show")
 }

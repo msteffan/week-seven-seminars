@@ -10,9 +10,6 @@ h1 {
   color: orange;
   font-size: 48px;
 }
-h2 {
-  text-align: center;
-}
 .animal {
   background-color: lightblue;
   margin: 20px;
@@ -26,20 +23,6 @@ ul {
   background-color: blue;
   list-style: none;
 }
-.button {
-  background-color: whitesmoke;
-  width: 50%;
-  text-shadow: 2px 2px red;
-  border: 10px solid black;
-  border-radius: 10px;
-  font-size: 32px;
-  text-align: center;
-  margin: 20px auto;
-}
-.button:hover {
-  cursor: pointer;
-}
-
 
 .close-button {
   border: 2px solid red;
@@ -49,10 +32,13 @@ ul {
 }
 
 .sloth-fact {
-  display: none;
   background-color: orange;
 }
 
-.show {
+
+
+
+
+/*.show {
   display: inline-block;
-}
+}*/
