@@ -1,52 +1,31 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Ubuntu', sans-serif;
 }
-
 h1 {
   border: 10px solid red;
   border-radius: 5px;
   color: orange;
   font-size: 48px;
 }
-
-h1::first-letter {
-  color: blue;
-}
-
 h2 {
   text-align: center;
 }
-
 .animal {
-  background-color: lemonchiffon;
+  background-color: lightblue;
   margin: 20px;
-}
-.mammal {
-  background-color: yellow;
   padding: 30px 5px;
 }
-.fish {
-  background-color: orangered;
-  padding-left: 50px;
-  padding-top: 10px;
-}
-.bird {
-  background-color: lightblue;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 li {
-  width: 50%;
+  width: 45%;
+  display: inline-block;;
 }
 ul {
   background-color: blue;
+  list-style: none;
 }
-
 .button {
   background-color: whitesmoke;
   width: 50%;
@@ -57,13 +36,23 @@ ul {
   text-align: center;
   margin: 20px auto;
 }
-
 .button:hover {
   cursor: pointer;
 }
-.logo-flipper {
-  background-color: yellow;
+
+
+.close-button {
+  border: 2px solid red;
+  cursor: pointer;
+  text-align: right;
+  margin-left: 100px;
 }
-.selected {
-  background-color: red;
+
+.sloth-fact {
+  display: none;
+  background-color: orange;
+}
+
+.show {
+  display: inline-block;
 }

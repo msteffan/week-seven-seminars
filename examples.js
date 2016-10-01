@@ -46,6 +46,7 @@ What is jQuery?
 // vanilla JS
 document.getElementById("logo").style.backgroundColor = "yellow"
 
+
 // jQuery
 $("#logo").css("background-color", "yellow")
 
@@ -69,17 +70,24 @@ if (el.classList) {
 }
 
 
-// ...jQuery
+// ...jQuery (SO MUCH SHORTER)
 $("#logo").toggleClass(className);
 
 
 
 
 
+
+
+
       //selector
-      $("#logo").toggleClass(className);
+      $("____").toggleClass(className);
                   // action
 
+
+
+      // example:
+      $(".animal").toggleClass("mammal");
 
 
 
